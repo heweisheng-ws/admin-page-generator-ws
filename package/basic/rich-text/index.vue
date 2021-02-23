@@ -1,5 +1,6 @@
 <template>
   <vue-tinymce
+    v-if="active"
     v-model="value"
     :setting="setting"
     :disabled="isReadOnly || element.config.disabled"
@@ -14,6 +15,7 @@ export default {
   data() {
     const _this = this;
     return {
+      active: true,
       setting: {
         menubar: true,
         toolbar:
@@ -75,6 +77,13 @@ export default {
         }
       }
     };
+  },
+  activated() {
+    //修复tab切换时富文本不可用bug
+    this.active = false;
+    this.$nextTick(() => {
+      this.active = true;
+    });
   }
 };
 </script>

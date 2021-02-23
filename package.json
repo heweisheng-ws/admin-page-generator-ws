@@ -1,5 +1,5 @@
 {
-  "name": "admin-page-generator",
+  "name": "admin-page-generator-ws",
   "version": "0.1.36",
   "description": "a page-generator for vue admin",
   "main": "index.js",
@@ -47,11 +47,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaitochen/admin-page-generator.git"
+    "url": "git+https://github.com/heweisheng-ws/admin-page-generator-ws.git"
   },
   "author": "kaitochen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaitochen/admin-page-generator/issues"
+    "url": "https://github.com/heweisheng-ws/admin-page-generator-ws/issues"
   }
 }
