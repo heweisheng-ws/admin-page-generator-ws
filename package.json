@@ -1,6 +1,6 @@
 {
   "name": "admin-page-generator-ws",
-  "version": "0.1.36",
+  "version": "0.1.37",
   "description": "a page-generator for vue admin",
   "main": "index.js",
   "scripts": {

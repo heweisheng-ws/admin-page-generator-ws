@@ -45,7 +45,7 @@
       ref="file"
       class="file-input"
       :multiple="element.config.multiple"
-      accept=".png,.jpg,.jpeg"
+      accept=".png,.jpg,.jpeg,.gif"
     />
     <file-upload-dialog
       :visible="dialogVisible"

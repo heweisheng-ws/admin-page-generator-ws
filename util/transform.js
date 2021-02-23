@@ -176,7 +176,7 @@ export const filterImage = (files, maxSize) => {
     };
   }
 
-  let typeArr = ["jpg", "png", "jpeg"];
+  let typeArr = ["jpg", "png", "jpeg", "gif"];
   let result = [];
   let error = [];
   files.forEach(file => {
