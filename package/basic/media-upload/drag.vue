@@ -7,7 +7,7 @@
         size="mini"
         @click="chooseFile"
         :disabled="readOnly || element.config.disabled"
-        >选择文件</el-button
+        >选择文件1</el-button
       >
       <input type="file" ref="file" class="file-input" />
       <p class="file-explain">

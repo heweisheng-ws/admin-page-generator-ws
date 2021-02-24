@@ -21,8 +21,8 @@
           size="small"
           style="width: 100%"
           v-model="element.config.max"
-          :min="-500"
-          :max="500"
+          :min="-999999999"
+          :max="999999999"
         ></el-input-number>
       </el-form-item>
       <el-form-item label="最小值">
@@ -30,8 +30,8 @@
           size="small"
           style="width: 100%"
           v-model="element.config.min"
-          :min="-500"
-          :max="500"
+          :min="-999999999"
+          :max="999999999"
         ></el-input-number>
       </el-form-item>
       <el-form-item label="是否为范围选择">
